@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+h2{
+    /* font-size: 40px; */
+    font-weight: 100;
+    
+}
+
+section{
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+}
+
+
+
+p{
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-right: 20px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.my-intro h1 {
+    color: #3b79bb;
+    font-weight: 700;
+}
+
+
+
+.header {
+    
+    height: 600px;
+    
+    background-image: url("images/header-bg.png") ;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    
+}
+
+.biography {
+    height: 600px;
+    background-image: url("images/biography-bg.png") ;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+}
+
+.biography p {
+    font-size: 20px;
+}
+
+
+.latest-work{
+    height: 600px;
+    background-image: url("images/latest-work-bg.png") ;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+
+    text-align: center;
+}
+
+
+
+.footer{
+    height: 600px;
+    background-image: url("images/footer-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    text-align: center;
+
+    padding: 0 5%;
+
+}
+
+
+#client-1{
+    margin-top: 5%;
+}
+
+#client-1 h4{
+    margin: 5px;
+    color: gray;
+}
+
+#client-1 h3{
+    margin: 0;
+}
+
+#client-1 p {
+    padding: 5px 20%;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.half-width img {
+    width: 80%;
+    float: left;
+}
+
+.my-intro {
+    margin-top: 100px;
+}
+
+.link-btn{
+    font-weight: 700;
+    color: white;
+    
+    background: linear-gradient(45deg, #373b44, #4286f4);
+    
+    text-decoration: none;
+    padding: 10px 40px ;
+    border-radius: 5px;
+
+    font-size: 20px;    
+    
+}
+
+.latest-work div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.latest-work img {
+    float: left;
+    width : 30%;
+    margin: 1.66%;
+    /* padding: 10% ; */
+}
+
+.footer a div {
+    color:white;
+    background: linear-gradient(360deg, #373b44, #4286f4);
+    padding: 10px 20% ;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+.footer h5 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#copyright {
+    text-align: center;
+    /* background-color: grey; */
+    margin: 0 0 ;
+    font-size: 12px;
+}
+
+
+
+
