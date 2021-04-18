@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- including AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <title>My Portfolio</title>
 </head>
 
@@ -15,7 +20,7 @@
 
 <body>
 
-    <section class="header">
+    <section class="header " data-aos="zoom-in-left" data-aos-duration="1500">
 
         <div class="half-width my-intro">
             <h2>Hello I'm</h2>
@@ -35,7 +40,7 @@
 
     </section>
 
-    <section class="biography">
+    <section class="biography " data-aos="zoom-in-right" data-aos-duration="1500">
 
         <div class="half-width">
             <img src="images/2.png" alt="">
@@ -56,7 +61,7 @@
 
     </section>
 
-    <section class="latest-work">
+    <section class="latest-work" data-aos="zoom-in-left" data-aos-duration="1500">
 
         <h2><strong>My Latest Work</strong></h2>
 
@@ -71,7 +76,7 @@
 
     </section>
 
-    <section class="footer">
+    <section class="footer" data-aos="zoom-in-right" data-aos-duration="1500">
 
         <h2><strong>What My Clients Say</strong></h2>
 
@@ -100,11 +105,13 @@
 
     </section>
 
-    <p id="copyright">
+    <p id="copyright" data-aos="zoom-in-left" data-aos-duration="1500">
         Programming Hero initiative. © 2020 All rights Reserved.
     </p>
 
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
